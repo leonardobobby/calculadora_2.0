@@ -1,6 +1,6 @@
 ﻿namespace calculadora_2._0
 {
-    partial class Form1
+    partial class Calculadora
     {
         /// <summary>
         /// Variável de designer necessária.
@@ -28,302 +28,363 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
-            this.button17 = new System.Windows.Forms.Button();
-            this.button18 = new System.Windows.Forms.Button();
-            this.button19 = new System.Windows.Forms.Button();
-            this.button20 = new System.Windows.Forms.Button();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Calculadora));
+            this.txtResultado = new System.Windows.Forms.TextBox();
+            this.btoPorcentagem = new System.Windows.Forms.Button();
+            this.btoApagarum = new System.Windows.Forms.Button();
+            this.btoApagar = new System.Windows.Forms.Button();
+            this.btoApagartudo = new System.Windows.Forms.Button();
+            this.btoRaiz = new System.Windows.Forms.Button();
+            this.btoAoquadrado = new System.Windows.Forms.Button();
+            this.btoDividir = new System.Windows.Forms.Button();
+            this.btoSobrex = new System.Windows.Forms.Button();
+            this.btoSeis = new System.Windows.Forms.Button();
+            this.btoCinco = new System.Windows.Forms.Button();
+            this.btoSubtrair = new System.Windows.Forms.Button();
+            this.btoQuatro = new System.Windows.Forms.Button();
+            this.btoNove = new System.Windows.Forms.Button();
+            this.btoOito = new System.Windows.Forms.Button();
+            this.btoMultiplicar = new System.Windows.Forms.Button();
+            this.btoSete = new System.Windows.Forms.Button();
+            this.btoTres = new System.Windows.Forms.Button();
+            this.btoDois = new System.Windows.Forms.Button();
+            this.btoSomar = new System.Windows.Forms.Button();
+            this.btoUm = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.button21 = new System.Windows.Forms.Button();
-            this.button22 = new System.Windows.Forms.Button();
-            this.button23 = new System.Windows.Forms.Button();
-            this.button24 = new System.Windows.Forms.Button();
+            this.btoVirgula = new System.Windows.Forms.Button();
+            this.btoZero = new System.Windows.Forms.Button();
+            this.btoIgual = new System.Windows.Forms.Button();
+            this.btoMaisouMenos = new System.Windows.Forms.Button();
+            this.lblResultado = new System.Windows.Forms.Label();
+            this.lblOperar = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // textBox1
+            // txtResultado
             // 
-            this.textBox1.Location = new System.Drawing.Point(12, 41);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(305, 121);
-            this.textBox1.TabIndex = 0;
+            this.txtResultado.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtResultado.Location = new System.Drawing.Point(12, 41);
+            this.txtResultado.Multiline = true;
+            this.txtResultado.Name = "txtResultado";
+            this.txtResultado.Size = new System.Drawing.Size(305, 121);
+            this.txtResultado.TabIndex = 0;
+            this.txtResultado.Text = " 0";
+            this.txtResultado.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // button1
+            // btoPorcentagem
             // 
-            this.button1.BackColor = System.Drawing.Color.Blue;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(12, 186);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(72, 44);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "%";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btoPorcentagem.BackColor = System.Drawing.Color.Blue;
+            this.btoPorcentagem.FlatAppearance.BorderColor = System.Drawing.Color.MidnightBlue;
+            this.btoPorcentagem.FlatAppearance.BorderSize = 2;
+            this.btoPorcentagem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btoPorcentagem.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btoPorcentagem.ForeColor = System.Drawing.Color.White;
+            this.btoPorcentagem.Location = new System.Drawing.Point(12, 186);
+            this.btoPorcentagem.Name = "btoPorcentagem";
+            this.btoPorcentagem.Size = new System.Drawing.Size(72, 44);
+            this.btoPorcentagem.TabIndex = 1;
+            this.btoPorcentagem.Text = "%";
+            this.btoPorcentagem.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // btoApagarum
             // 
-            this.button2.BackColor = System.Drawing.Color.Blue;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(246, 186);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(71, 44);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "←";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btoApagarum.BackColor = System.Drawing.Color.Blue;
+            this.btoApagarum.FlatAppearance.BorderColor = System.Drawing.Color.MidnightBlue;
+            this.btoApagarum.FlatAppearance.BorderSize = 2;
+            this.btoApagarum.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btoApagarum.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btoApagarum.ForeColor = System.Drawing.Color.White;
+            this.btoApagarum.Location = new System.Drawing.Point(246, 186);
+            this.btoApagarum.Name = "btoApagarum";
+            this.btoApagarum.Size = new System.Drawing.Size(71, 44);
+            this.btoApagarum.TabIndex = 2;
+            this.btoApagarum.Text = "←";
+            this.btoApagarum.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // btoApagar
             // 
-            this.button3.BackColor = System.Drawing.Color.Blue;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(90, 186);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(72, 44);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "CE";
-            this.button3.UseVisualStyleBackColor = false;
+            this.btoApagar.BackColor = System.Drawing.Color.Blue;
+            this.btoApagar.FlatAppearance.BorderColor = System.Drawing.Color.MidnightBlue;
+            this.btoApagar.FlatAppearance.BorderSize = 2;
+            this.btoApagar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btoApagar.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btoApagar.ForeColor = System.Drawing.Color.White;
+            this.btoApagar.Location = new System.Drawing.Point(90, 186);
+            this.btoApagar.Name = "btoApagar";
+            this.btoApagar.Size = new System.Drawing.Size(72, 44);
+            this.btoApagar.TabIndex = 3;
+            this.btoApagar.Text = "CE";
+            this.btoApagar.UseVisualStyleBackColor = false;
+            this.btoApagar.Click += new System.EventHandler(this.btoApagar_Click);
             // 
-            // button4
+            // btoApagartudo
             // 
-            this.button4.BackColor = System.Drawing.Color.Blue;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(168, 186);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(72, 44);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "C";
-            this.button4.UseVisualStyleBackColor = false;
+            this.btoApagartudo.BackColor = System.Drawing.Color.Blue;
+            this.btoApagartudo.FlatAppearance.BorderColor = System.Drawing.Color.MidnightBlue;
+            this.btoApagartudo.FlatAppearance.BorderSize = 2;
+            this.btoApagartudo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btoApagartudo.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btoApagartudo.ForeColor = System.Drawing.Color.White;
+            this.btoApagartudo.Location = new System.Drawing.Point(168, 186);
+            this.btoApagartudo.Name = "btoApagartudo";
+            this.btoApagartudo.Size = new System.Drawing.Size(72, 44);
+            this.btoApagartudo.TabIndex = 4;
+            this.btoApagartudo.Text = "C";
+            this.btoApagartudo.UseVisualStyleBackColor = false;
+            this.btoApagartudo.Click += new System.EventHandler(this.btoApagartudo_Click);
             // 
-            // button5
+            // btoRaiz
             // 
-            this.button5.BackColor = System.Drawing.Color.Blue;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(168, 233);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(72, 44);
-            this.button5.TabIndex = 8;
-            this.button5.Text = "²√x";
-            this.button5.UseVisualStyleBackColor = false;
+            this.btoRaiz.BackColor = System.Drawing.Color.Blue;
+            this.btoRaiz.FlatAppearance.BorderColor = System.Drawing.Color.MidnightBlue;
+            this.btoRaiz.FlatAppearance.BorderSize = 2;
+            this.btoRaiz.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btoRaiz.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btoRaiz.ForeColor = System.Drawing.Color.White;
+            this.btoRaiz.Location = new System.Drawing.Point(168, 233);
+            this.btoRaiz.Name = "btoRaiz";
+            this.btoRaiz.Size = new System.Drawing.Size(72, 44);
+            this.btoRaiz.TabIndex = 8;
+            this.btoRaiz.Text = "²√x";
+            this.btoRaiz.UseVisualStyleBackColor = false;
             // 
-            // button6
+            // btoAoquadrado
             // 
-            this.button6.BackColor = System.Drawing.Color.Blue;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.Color.White;
-            this.button6.Location = new System.Drawing.Point(90, 233);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(72, 44);
-            this.button6.TabIndex = 7;
-            this.button6.Text = "x²";
-            this.button6.UseVisualStyleBackColor = false;
+            this.btoAoquadrado.BackColor = System.Drawing.Color.Blue;
+            this.btoAoquadrado.FlatAppearance.BorderColor = System.Drawing.Color.MidnightBlue;
+            this.btoAoquadrado.FlatAppearance.BorderSize = 2;
+            this.btoAoquadrado.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btoAoquadrado.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btoAoquadrado.ForeColor = System.Drawing.Color.White;
+            this.btoAoquadrado.Location = new System.Drawing.Point(90, 233);
+            this.btoAoquadrado.Name = "btoAoquadrado";
+            this.btoAoquadrado.Size = new System.Drawing.Size(72, 44);
+            this.btoAoquadrado.TabIndex = 7;
+            this.btoAoquadrado.Text = "x²";
+            this.btoAoquadrado.UseVisualStyleBackColor = false;
             // 
-            // button7
+            // btoDividir
             // 
-            this.button7.BackColor = System.Drawing.Color.Blue;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.ForeColor = System.Drawing.Color.White;
-            this.button7.Location = new System.Drawing.Point(246, 233);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(71, 44);
-            this.button7.TabIndex = 6;
-            this.button7.Text = "÷";
-            this.button7.UseVisualStyleBackColor = false;
+            this.btoDividir.BackColor = System.Drawing.Color.Blue;
+            this.btoDividir.FlatAppearance.BorderColor = System.Drawing.Color.MidnightBlue;
+            this.btoDividir.FlatAppearance.BorderSize = 2;
+            this.btoDividir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btoDividir.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btoDividir.ForeColor = System.Drawing.Color.White;
+            this.btoDividir.Location = new System.Drawing.Point(246, 233);
+            this.btoDividir.Name = "btoDividir";
+            this.btoDividir.Size = new System.Drawing.Size(71, 44);
+            this.btoDividir.TabIndex = 6;
+            this.btoDividir.Text = "÷";
+            this.btoDividir.UseVisualStyleBackColor = false;
+            this.btoDividir.Click += new System.EventHandler(this.btoDividir_Click);
             // 
-            // button8
+            // btoSobrex
             // 
-            this.button8.BackColor = System.Drawing.Color.Blue;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.ForeColor = System.Drawing.Color.White;
-            this.button8.Location = new System.Drawing.Point(12, 233);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(72, 44);
-            this.button8.TabIndex = 5;
-            this.button8.Text = "¹/x";
-            this.button8.UseVisualStyleBackColor = false;
+            this.btoSobrex.BackColor = System.Drawing.Color.Blue;
+            this.btoSobrex.FlatAppearance.BorderColor = System.Drawing.Color.MidnightBlue;
+            this.btoSobrex.FlatAppearance.BorderSize = 2;
+            this.btoSobrex.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btoSobrex.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btoSobrex.ForeColor = System.Drawing.Color.White;
+            this.btoSobrex.Location = new System.Drawing.Point(12, 233);
+            this.btoSobrex.Name = "btoSobrex";
+            this.btoSobrex.Size = new System.Drawing.Size(72, 44);
+            this.btoSobrex.TabIndex = 5;
+            this.btoSobrex.Text = "¹/x";
+            this.btoSobrex.UseVisualStyleBackColor = false;
             // 
-            // button9
+            // btoSeis
             // 
-            this.button9.BackColor = System.Drawing.Color.RoyalBlue;
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.ForeColor = System.Drawing.Color.White;
-            this.button9.Location = new System.Drawing.Point(168, 327);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(72, 44);
-            this.button9.TabIndex = 16;
-            this.button9.Text = "6";
-            this.button9.UseVisualStyleBackColor = false;
+            this.btoSeis.BackColor = System.Drawing.Color.RoyalBlue;
+            this.btoSeis.FlatAppearance.BorderColor = System.Drawing.Color.MidnightBlue;
+            this.btoSeis.FlatAppearance.BorderSize = 2;
+            this.btoSeis.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btoSeis.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btoSeis.ForeColor = System.Drawing.Color.White;
+            this.btoSeis.Location = new System.Drawing.Point(168, 327);
+            this.btoSeis.Name = "btoSeis";
+            this.btoSeis.Size = new System.Drawing.Size(72, 44);
+            this.btoSeis.TabIndex = 16;
+            this.btoSeis.Text = "6";
+            this.btoSeis.UseVisualStyleBackColor = false;
+            this.btoSeis.Click += new System.EventHandler(this.btoSeis_Click);
             // 
-            // button10
+            // btoCinco
             // 
-            this.button10.BackColor = System.Drawing.Color.RoyalBlue;
-            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button10.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button10.ForeColor = System.Drawing.Color.White;
-            this.button10.Location = new System.Drawing.Point(90, 327);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(72, 44);
-            this.button10.TabIndex = 15;
-            this.button10.Text = "5";
-            this.button10.UseVisualStyleBackColor = false;
+            this.btoCinco.BackColor = System.Drawing.Color.RoyalBlue;
+            this.btoCinco.FlatAppearance.BorderColor = System.Drawing.Color.MidnightBlue;
+            this.btoCinco.FlatAppearance.BorderSize = 2;
+            this.btoCinco.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btoCinco.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btoCinco.ForeColor = System.Drawing.Color.White;
+            this.btoCinco.Location = new System.Drawing.Point(90, 327);
+            this.btoCinco.Name = "btoCinco";
+            this.btoCinco.Size = new System.Drawing.Size(72, 44);
+            this.btoCinco.TabIndex = 15;
+            this.btoCinco.Text = "5";
+            this.btoCinco.UseVisualStyleBackColor = false;
+            this.btoCinco.Click += new System.EventHandler(this.btoCinco_Click);
             // 
-            // button11
+            // btoSubtrair
             // 
-            this.button11.BackColor = System.Drawing.Color.Blue;
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button11.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button11.ForeColor = System.Drawing.Color.White;
-            this.button11.Location = new System.Drawing.Point(246, 327);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(71, 44);
-            this.button11.TabIndex = 14;
-            this.button11.Text = "_";
-            this.button11.UseVisualStyleBackColor = false;
+            this.btoSubtrair.BackColor = System.Drawing.Color.Blue;
+            this.btoSubtrair.FlatAppearance.BorderColor = System.Drawing.Color.MidnightBlue;
+            this.btoSubtrair.FlatAppearance.BorderSize = 2;
+            this.btoSubtrair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btoSubtrair.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btoSubtrair.ForeColor = System.Drawing.Color.White;
+            this.btoSubtrair.Location = new System.Drawing.Point(246, 327);
+            this.btoSubtrair.Name = "btoSubtrair";
+            this.btoSubtrair.Size = new System.Drawing.Size(71, 44);
+            this.btoSubtrair.TabIndex = 14;
+            this.btoSubtrair.Text = "_";
+            this.btoSubtrair.UseVisualStyleBackColor = false;
+            this.btoSubtrair.Click += new System.EventHandler(this.btoSubtrair_Click);
             // 
-            // button12
+            // btoQuatro
             // 
-            this.button12.BackColor = System.Drawing.Color.RoyalBlue;
-            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button12.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button12.ForeColor = System.Drawing.Color.White;
-            this.button12.Location = new System.Drawing.Point(12, 327);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(72, 44);
-            this.button12.TabIndex = 13;
-            this.button12.Text = "4";
-            this.button12.UseVisualStyleBackColor = false;
+            this.btoQuatro.BackColor = System.Drawing.Color.RoyalBlue;
+            this.btoQuatro.FlatAppearance.BorderColor = System.Drawing.Color.MidnightBlue;
+            this.btoQuatro.FlatAppearance.BorderSize = 2;
+            this.btoQuatro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btoQuatro.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btoQuatro.ForeColor = System.Drawing.Color.White;
+            this.btoQuatro.Location = new System.Drawing.Point(12, 327);
+            this.btoQuatro.Name = "btoQuatro";
+            this.btoQuatro.Size = new System.Drawing.Size(72, 44);
+            this.btoQuatro.TabIndex = 13;
+            this.btoQuatro.Text = "4";
+            this.btoQuatro.UseVisualStyleBackColor = false;
+            this.btoQuatro.Click += new System.EventHandler(this.btoQuatro_Click);
             // 
-            // button13
+            // btoNove
             // 
-            this.button13.BackColor = System.Drawing.Color.RoyalBlue;
-            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button13.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button13.ForeColor = System.Drawing.Color.White;
-            this.button13.Location = new System.Drawing.Point(168, 280);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(72, 44);
-            this.button13.TabIndex = 12;
-            this.button13.Text = "9";
-            this.button13.UseVisualStyleBackColor = false;
+            this.btoNove.BackColor = System.Drawing.Color.RoyalBlue;
+            this.btoNove.FlatAppearance.BorderColor = System.Drawing.Color.MidnightBlue;
+            this.btoNove.FlatAppearance.BorderSize = 2;
+            this.btoNove.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btoNove.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btoNove.ForeColor = System.Drawing.Color.White;
+            this.btoNove.Location = new System.Drawing.Point(168, 280);
+            this.btoNove.Name = "btoNove";
+            this.btoNove.Size = new System.Drawing.Size(72, 44);
+            this.btoNove.TabIndex = 12;
+            this.btoNove.Text = "9";
+            this.btoNove.UseVisualStyleBackColor = false;
+            this.btoNove.Click += new System.EventHandler(this.btoNove_Click);
             // 
-            // button14
+            // btoOito
             // 
-            this.button14.BackColor = System.Drawing.Color.RoyalBlue;
-            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button14.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button14.ForeColor = System.Drawing.Color.White;
-            this.button14.Location = new System.Drawing.Point(90, 280);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(72, 44);
-            this.button14.TabIndex = 11;
-            this.button14.Text = "8";
-            this.button14.UseVisualStyleBackColor = false;
+            this.btoOito.BackColor = System.Drawing.Color.RoyalBlue;
+            this.btoOito.FlatAppearance.BorderColor = System.Drawing.Color.MidnightBlue;
+            this.btoOito.FlatAppearance.BorderSize = 2;
+            this.btoOito.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btoOito.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btoOito.ForeColor = System.Drawing.Color.White;
+            this.btoOito.Location = new System.Drawing.Point(90, 280);
+            this.btoOito.Name = "btoOito";
+            this.btoOito.Size = new System.Drawing.Size(72, 44);
+            this.btoOito.TabIndex = 11;
+            this.btoOito.Text = "8";
+            this.btoOito.UseVisualStyleBackColor = false;
+            this.btoOito.Click += new System.EventHandler(this.btoOito_Click);
             // 
-            // button15
+            // btoMultiplicar
             // 
-            this.button15.BackColor = System.Drawing.Color.Blue;
-            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button15.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button15.ForeColor = System.Drawing.Color.White;
-            this.button15.Location = new System.Drawing.Point(246, 280);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(71, 44);
-            this.button15.TabIndex = 10;
-            this.button15.Text = "x";
-            this.button15.UseVisualStyleBackColor = false;
+            this.btoMultiplicar.BackColor = System.Drawing.Color.Blue;
+            this.btoMultiplicar.FlatAppearance.BorderColor = System.Drawing.Color.MidnightBlue;
+            this.btoMultiplicar.FlatAppearance.BorderSize = 2;
+            this.btoMultiplicar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btoMultiplicar.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btoMultiplicar.ForeColor = System.Drawing.Color.White;
+            this.btoMultiplicar.Location = new System.Drawing.Point(246, 280);
+            this.btoMultiplicar.Name = "btoMultiplicar";
+            this.btoMultiplicar.Size = new System.Drawing.Size(71, 44);
+            this.btoMultiplicar.TabIndex = 10;
+            this.btoMultiplicar.Text = "x";
+            this.btoMultiplicar.UseVisualStyleBackColor = false;
+            this.btoMultiplicar.Click += new System.EventHandler(this.btoMultiplicar_Click);
             // 
-            // button16
+            // btoSete
             // 
-            this.button16.BackColor = System.Drawing.Color.RoyalBlue;
-            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button16.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button16.ForeColor = System.Drawing.Color.White;
-            this.button16.Location = new System.Drawing.Point(12, 280);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(72, 44);
-            this.button16.TabIndex = 9;
-            this.button16.Text = "7";
-            this.button16.UseVisualStyleBackColor = false;
+            this.btoSete.BackColor = System.Drawing.Color.RoyalBlue;
+            this.btoSete.FlatAppearance.BorderColor = System.Drawing.Color.MidnightBlue;
+            this.btoSete.FlatAppearance.BorderSize = 2;
+            this.btoSete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btoSete.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btoSete.ForeColor = System.Drawing.Color.White;
+            this.btoSete.Location = new System.Drawing.Point(12, 280);
+            this.btoSete.Name = "btoSete";
+            this.btoSete.Size = new System.Drawing.Size(72, 44);
+            this.btoSete.TabIndex = 9;
+            this.btoSete.Text = "7";
+            this.btoSete.UseVisualStyleBackColor = false;
+            this.btoSete.Click += new System.EventHandler(this.btoSete_Click);
             // 
-            // button17
+            // btoTres
             // 
-            this.button17.BackColor = System.Drawing.Color.RoyalBlue;
-            this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button17.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button17.ForeColor = System.Drawing.Color.White;
-            this.button17.Location = new System.Drawing.Point(168, 374);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(72, 46);
-            this.button17.TabIndex = 20;
-            this.button17.Text = "3";
-            this.button17.UseVisualStyleBackColor = false;
+            this.btoTres.BackColor = System.Drawing.Color.RoyalBlue;
+            this.btoTres.FlatAppearance.BorderColor = System.Drawing.Color.MidnightBlue;
+            this.btoTres.FlatAppearance.BorderSize = 2;
+            this.btoTres.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btoTres.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btoTres.ForeColor = System.Drawing.Color.White;
+            this.btoTres.Location = new System.Drawing.Point(168, 374);
+            this.btoTres.Name = "btoTres";
+            this.btoTres.Size = new System.Drawing.Size(72, 46);
+            this.btoTres.TabIndex = 20;
+            this.btoTres.Text = "3";
+            this.btoTres.UseVisualStyleBackColor = false;
+            this.btoTres.Click += new System.EventHandler(this.btoTres_Click);
             // 
-            // button18
+            // btoDois
             // 
-            this.button18.BackColor = System.Drawing.Color.RoyalBlue;
-            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button18.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button18.ForeColor = System.Drawing.Color.White;
-            this.button18.Location = new System.Drawing.Point(90, 374);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(72, 46);
-            this.button18.TabIndex = 19;
-            this.button18.Text = "2";
-            this.button18.UseVisualStyleBackColor = false;
+            this.btoDois.BackColor = System.Drawing.Color.RoyalBlue;
+            this.btoDois.FlatAppearance.BorderColor = System.Drawing.Color.MidnightBlue;
+            this.btoDois.FlatAppearance.BorderSize = 2;
+            this.btoDois.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btoDois.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btoDois.ForeColor = System.Drawing.Color.White;
+            this.btoDois.Location = new System.Drawing.Point(90, 374);
+            this.btoDois.Name = "btoDois";
+            this.btoDois.Size = new System.Drawing.Size(72, 46);
+            this.btoDois.TabIndex = 19;
+            this.btoDois.Text = "2";
+            this.btoDois.UseVisualStyleBackColor = false;
+            this.btoDois.Click += new System.EventHandler(this.btoDois_Click);
             // 
-            // button19
+            // btoSomar
             // 
-            this.button19.BackColor = System.Drawing.Color.Blue;
-            this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button19.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button19.ForeColor = System.Drawing.Color.White;
-            this.button19.Location = new System.Drawing.Point(246, 374);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(71, 46);
-            this.button19.TabIndex = 18;
-            this.button19.Text = "+";
-            this.button19.UseVisualStyleBackColor = false;
+            this.btoSomar.BackColor = System.Drawing.Color.Blue;
+            this.btoSomar.FlatAppearance.BorderColor = System.Drawing.Color.MidnightBlue;
+            this.btoSomar.FlatAppearance.BorderSize = 2;
+            this.btoSomar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btoSomar.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btoSomar.ForeColor = System.Drawing.Color.White;
+            this.btoSomar.Location = new System.Drawing.Point(246, 374);
+            this.btoSomar.Name = "btoSomar";
+            this.btoSomar.Size = new System.Drawing.Size(71, 46);
+            this.btoSomar.TabIndex = 18;
+            this.btoSomar.Text = "+";
+            this.btoSomar.UseVisualStyleBackColor = false;
+            this.btoSomar.Click += new System.EventHandler(this.btoSomar_Click);
             // 
-            // button20
+            // btoUm
             // 
-            this.button20.BackColor = System.Drawing.Color.RoyalBlue;
-            this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button20.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button20.ForeColor = System.Drawing.Color.White;
-            this.button20.Location = new System.Drawing.Point(12, 374);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(72, 46);
-            this.button20.TabIndex = 17;
-            this.button20.Text = "1";
-            this.button20.UseVisualStyleBackColor = false;
+            this.btoUm.BackColor = System.Drawing.Color.RoyalBlue;
+            this.btoUm.FlatAppearance.BorderColor = System.Drawing.Color.MidnightBlue;
+            this.btoUm.FlatAppearance.BorderSize = 2;
+            this.btoUm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btoUm.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btoUm.ForeColor = System.Drawing.Color.White;
+            this.btoUm.Location = new System.Drawing.Point(12, 374);
+            this.btoUm.Name = "btoUm";
+            this.btoUm.Size = new System.Drawing.Size(72, 46);
+            this.btoUm.TabIndex = 17;
+            this.btoUm.Text = "1";
+            this.btoUm.UseVisualStyleBackColor = false;
+            this.btoUm.Click += new System.EventHandler(this.btoUm_Click);
             // 
             // label1
             // 
@@ -335,93 +396,138 @@
             this.label1.TabIndex = 21;
             this.label1.Text = "Padrão";
             // 
-            // button21
+            // btoVirgula
             // 
-            this.button21.BackColor = System.Drawing.Color.RoyalBlue;
-            this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button21.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button21.ForeColor = System.Drawing.Color.White;
-            this.button21.Location = new System.Drawing.Point(168, 423);
-            this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(72, 46);
-            this.button21.TabIndex = 25;
-            this.button21.Text = ",";
-            this.button21.UseVisualStyleBackColor = false;
+            this.btoVirgula.BackColor = System.Drawing.Color.RoyalBlue;
+            this.btoVirgula.FlatAppearance.BorderColor = System.Drawing.Color.MidnightBlue;
+            this.btoVirgula.FlatAppearance.BorderSize = 2;
+            this.btoVirgula.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btoVirgula.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btoVirgula.ForeColor = System.Drawing.Color.White;
+            this.btoVirgula.Location = new System.Drawing.Point(168, 423);
+            this.btoVirgula.Name = "btoVirgula";
+            this.btoVirgula.Size = new System.Drawing.Size(72, 46);
+            this.btoVirgula.TabIndex = 25;
+            this.btoVirgula.Text = ",";
+            this.btoVirgula.UseVisualStyleBackColor = false;
+            this.btoVirgula.Click += new System.EventHandler(this.btoVirgula_Click);
             // 
-            // button22
+            // btoZero
             // 
-            this.button22.BackColor = System.Drawing.Color.RoyalBlue;
-            this.button22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button22.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button22.ForeColor = System.Drawing.Color.White;
-            this.button22.Location = new System.Drawing.Point(90, 423);
-            this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(72, 46);
-            this.button22.TabIndex = 24;
-            this.button22.Text = "0";
-            this.button22.UseVisualStyleBackColor = false;
+            this.btoZero.BackColor = System.Drawing.Color.RoyalBlue;
+            this.btoZero.FlatAppearance.BorderColor = System.Drawing.Color.MidnightBlue;
+            this.btoZero.FlatAppearance.BorderSize = 2;
+            this.btoZero.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btoZero.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btoZero.ForeColor = System.Drawing.Color.White;
+            this.btoZero.Location = new System.Drawing.Point(90, 423);
+            this.btoZero.Name = "btoZero";
+            this.btoZero.Size = new System.Drawing.Size(72, 46);
+            this.btoZero.TabIndex = 24;
+            this.btoZero.Text = "0";
+            this.btoZero.UseVisualStyleBackColor = false;
+            this.btoZero.Click += new System.EventHandler(this.btoZero_Click);
             // 
-            // button23
+            // btoIgual
             // 
-            this.button23.BackColor = System.Drawing.Color.Orange;
-            this.button23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button23.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button23.ForeColor = System.Drawing.Color.White;
-            this.button23.Location = new System.Drawing.Point(246, 423);
-            this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(71, 46);
-            this.button23.TabIndex = 23;
-            this.button23.Text = "=";
-            this.button23.UseVisualStyleBackColor = false;
+            this.btoIgual.BackColor = System.Drawing.Color.Orange;
+            this.btoIgual.FlatAppearance.BorderColor = System.Drawing.Color.SaddleBrown;
+            this.btoIgual.FlatAppearance.BorderSize = 2;
+            this.btoIgual.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btoIgual.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btoIgual.ForeColor = System.Drawing.Color.White;
+            this.btoIgual.Location = new System.Drawing.Point(246, 423);
+            this.btoIgual.Name = "btoIgual";
+            this.btoIgual.Size = new System.Drawing.Size(71, 46);
+            this.btoIgual.TabIndex = 23;
+            this.btoIgual.Text = "=";
+            this.btoIgual.UseVisualStyleBackColor = false;
+            this.btoIgual.Click += new System.EventHandler(this.btoIgual_Click);
             // 
-            // button24
+            // btoMaisouMenos
             // 
-            this.button24.BackColor = System.Drawing.Color.RoyalBlue;
-            this.button24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button24.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button24.ForeColor = System.Drawing.Color.White;
-            this.button24.Location = new System.Drawing.Point(12, 423);
-            this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(72, 46);
-            this.button24.TabIndex = 22;
-            this.button24.Text = "+/-";
-            this.button24.UseVisualStyleBackColor = false;
+            this.btoMaisouMenos.BackColor = System.Drawing.Color.RoyalBlue;
+            this.btoMaisouMenos.FlatAppearance.BorderColor = System.Drawing.Color.MidnightBlue;
+            this.btoMaisouMenos.FlatAppearance.BorderSize = 2;
+            this.btoMaisouMenos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btoMaisouMenos.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btoMaisouMenos.ForeColor = System.Drawing.Color.White;
+            this.btoMaisouMenos.Location = new System.Drawing.Point(12, 423);
+            this.btoMaisouMenos.Name = "btoMaisouMenos";
+            this.btoMaisouMenos.Size = new System.Drawing.Size(72, 46);
+            this.btoMaisouMenos.TabIndex = 22;
+            this.btoMaisouMenos.Text = "+/-";
+            this.btoMaisouMenos.UseVisualStyleBackColor = false;
             // 
-            // Form1
+            // lblResultado
+            // 
+            this.lblResultado.AutoSize = true;
+            this.lblResultado.BackColor = System.Drawing.Color.Transparent;
+            this.lblResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResultado.Location = new System.Drawing.Point(301, 138);
+            this.lblResultado.Name = "lblResultado";
+            this.lblResultado.Size = new System.Drawing.Size(0, 24);
+            this.lblResultado.TabIndex = 26;
+            // 
+            // lblOperar
+            // 
+            this.lblOperar.AutoSize = true;
+            this.lblOperar.BackColor = System.Drawing.Color.White;
+            this.lblOperar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblOperar.Location = new System.Drawing.Point(15, 138);
+            this.lblOperar.Name = "lblOperar";
+            this.lblOperar.Size = new System.Drawing.Size(19, 20);
+            this.lblOperar.TabIndex = 27;
+            this.lblOperar.Text = "?";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.White;
+            this.label2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(16, 138);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(0, 18);
+            this.label2.TabIndex = 28;
+            // 
+            // Calculadora
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(330, 476);
-            this.Controls.Add(this.button21);
-            this.Controls.Add(this.button22);
-            this.Controls.Add(this.button23);
-            this.Controls.Add(this.button24);
+            this.ClientSize = new System.Drawing.Size(329, 476);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.lblOperar);
+            this.Controls.Add(this.lblResultado);
+            this.Controls.Add(this.btoVirgula);
+            this.Controls.Add(this.btoZero);
+            this.Controls.Add(this.btoIgual);
+            this.Controls.Add(this.btoMaisouMenos);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button17);
-            this.Controls.Add(this.button18);
-            this.Controls.Add(this.button19);
-            this.Controls.Add(this.button20);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.button10);
-            this.Controls.Add(this.button11);
-            this.Controls.Add(this.button12);
-            this.Controls.Add(this.button13);
-            this.Controls.Add(this.button14);
-            this.Controls.Add(this.button15);
-            this.Controls.Add(this.button16);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.btoTres);
+            this.Controls.Add(this.btoDois);
+            this.Controls.Add(this.btoSomar);
+            this.Controls.Add(this.btoUm);
+            this.Controls.Add(this.btoSeis);
+            this.Controls.Add(this.btoCinco);
+            this.Controls.Add(this.btoSubtrair);
+            this.Controls.Add(this.btoQuatro);
+            this.Controls.Add(this.btoNove);
+            this.Controls.Add(this.btoOito);
+            this.Controls.Add(this.btoMultiplicar);
+            this.Controls.Add(this.btoSete);
+            this.Controls.Add(this.btoRaiz);
+            this.Controls.Add(this.btoAoquadrado);
+            this.Controls.Add(this.btoDividir);
+            this.Controls.Add(this.btoSobrex);
+            this.Controls.Add(this.btoApagartudo);
+            this.Controls.Add(this.btoApagar);
+            this.Controls.Add(this.btoApagarum);
+            this.Controls.Add(this.btoPorcentagem);
+            this.Controls.Add(this.txtResultado);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Form1";
+            this.Name = "Calculadora";
             this.Text = "Calculadora";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -430,32 +536,35 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.Button button14;
-        private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.Button button16;
-        private System.Windows.Forms.Button button17;
-        private System.Windows.Forms.Button button18;
-        private System.Windows.Forms.Button button19;
-        private System.Windows.Forms.Button button20;
+        private System.Windows.Forms.TextBox txtResultado;
+        private System.Windows.Forms.Button btoPorcentagem;
+        private System.Windows.Forms.Button btoApagarum;
+        private System.Windows.Forms.Button btoApagar;
+        private System.Windows.Forms.Button btoApagartudo;
+        private System.Windows.Forms.Button btoRaiz;
+        private System.Windows.Forms.Button btoAoquadrado;
+        private System.Windows.Forms.Button btoDividir;
+        private System.Windows.Forms.Button btoSobrex;
+        private System.Windows.Forms.Button btoSeis;
+        private System.Windows.Forms.Button btoCinco;
+        private System.Windows.Forms.Button btoSubtrair;
+        private System.Windows.Forms.Button btoQuatro;
+        private System.Windows.Forms.Button btoNove;
+        private System.Windows.Forms.Button btoOito;
+        private System.Windows.Forms.Button btoMultiplicar;
+        private System.Windows.Forms.Button btoSete;
+        private System.Windows.Forms.Button btoTres;
+        private System.Windows.Forms.Button btoDois;
+        private System.Windows.Forms.Button btoSomar;
+        private System.Windows.Forms.Button btoUm;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button21;
-        private System.Windows.Forms.Button button22;
-        private System.Windows.Forms.Button button23;
-        private System.Windows.Forms.Button button24;
+        private System.Windows.Forms.Button btoVirgula;
+        private System.Windows.Forms.Button btoZero;
+        private System.Windows.Forms.Button btoIgual;
+        private System.Windows.Forms.Button btoMaisouMenos;
+        private System.Windows.Forms.Label lblResultado;
+        private System.Windows.Forms.Label lblOperar;
+        private System.Windows.Forms.Label label2;
     }
 }
 
