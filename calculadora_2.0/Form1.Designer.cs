@@ -58,6 +58,8 @@
             this.lblResultado = new System.Windows.Forms.Label();
             this.lblOperar = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.lblConta = new System.Windows.Forms.Label();
+            this.lblConta2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txtResultado
@@ -68,7 +70,7 @@
             this.txtResultado.Name = "txtResultado";
             this.txtResultado.Size = new System.Drawing.Size(305, 121);
             this.txtResultado.TabIndex = 0;
-            this.txtResultado.Text = " 0";
+            this.txtResultado.Text = " ";
             this.txtResultado.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // btoPorcentagem
@@ -85,6 +87,7 @@
             this.btoPorcentagem.TabIndex = 1;
             this.btoPorcentagem.Text = "%";
             this.btoPorcentagem.UseVisualStyleBackColor = false;
+            this.btoPorcentagem.Click += new System.EventHandler(this.btoPorcentagem_Click);
             // 
             // btoApagarum
             // 
@@ -100,6 +103,7 @@
             this.btoApagarum.TabIndex = 2;
             this.btoApagarum.Text = "←";
             this.btoApagarum.UseVisualStyleBackColor = false;
+            this.btoApagarum.Click += new System.EventHandler(this.btoApagarum_Click);
             // 
             // btoApagar
             // 
@@ -147,6 +151,7 @@
             this.btoRaiz.TabIndex = 8;
             this.btoRaiz.Text = "²√x";
             this.btoRaiz.UseVisualStyleBackColor = false;
+            this.btoRaiz.Click += new System.EventHandler(this.btoRaiz_Click);
             // 
             // btoAoquadrado
             // 
@@ -162,6 +167,7 @@
             this.btoAoquadrado.TabIndex = 7;
             this.btoAoquadrado.Text = "x²";
             this.btoAoquadrado.UseVisualStyleBackColor = false;
+            this.btoAoquadrado.Click += new System.EventHandler(this.btoAoquadrado_Click);
             // 
             // btoDividir
             // 
@@ -193,6 +199,7 @@
             this.btoSobrex.TabIndex = 5;
             this.btoSobrex.Text = "¹/x";
             this.btoSobrex.UseVisualStyleBackColor = false;
+            this.btoSobrex.Click += new System.EventHandler(this.btoSobrex_Click);
             // 
             // btoSeis
             // 
@@ -458,6 +465,7 @@
             this.btoMaisouMenos.TabIndex = 22;
             this.btoMaisouMenos.Text = "+/-";
             this.btoMaisouMenos.UseVisualStyleBackColor = false;
+            this.btoMaisouMenos.Click += new System.EventHandler(this.btoMaisouMenos_Click);
             // 
             // lblResultado
             // 
@@ -473,12 +481,12 @@
             // 
             this.lblOperar.AutoSize = true;
             this.lblOperar.BackColor = System.Drawing.Color.White;
-            this.lblOperar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblOperar.Location = new System.Drawing.Point(15, 138);
+            this.lblOperar.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblOperar.Location = new System.Drawing.Point(270, 134);
             this.lblOperar.Name = "lblOperar";
-            this.lblOperar.Size = new System.Drawing.Size(19, 20);
+            this.lblOperar.Size = new System.Drawing.Size(25, 22);
             this.lblOperar.TabIndex = 27;
-            this.lblOperar.Text = "?";
+            this.lblOperar.Text = "...";
             // 
             // label2
             // 
@@ -490,12 +498,36 @@
             this.label2.Size = new System.Drawing.Size(0, 18);
             this.label2.TabIndex = 28;
             // 
+            // lblConta
+            // 
+            this.lblConta.AutoSize = true;
+            this.lblConta.BackColor = System.Drawing.Color.White;
+            this.lblConta.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblConta.Location = new System.Drawing.Point(16, 46);
+            this.lblConta.Name = "lblConta";
+            this.lblConta.Size = new System.Drawing.Size(18, 18);
+            this.lblConta.TabIndex = 29;
+            this.lblConta.Text = "--";
+            // 
+            // lblConta2
+            // 
+            this.lblConta2.AutoSize = true;
+            this.lblConta2.BackColor = System.Drawing.Color.White;
+            this.lblConta2.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblConta2.Location = new System.Drawing.Point(15, 46);
+            this.lblConta2.Name = "lblConta2";
+            this.lblConta2.Size = new System.Drawing.Size(22, 22);
+            this.lblConta2.TabIndex = 30;
+            this.lblConta2.Text = "--";
+            // 
             // Calculadora
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(329, 476);
+            this.Controls.Add(this.lblConta2);
+            this.Controls.Add(this.lblConta);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lblOperar);
             this.Controls.Add(this.lblResultado);
@@ -565,6 +597,8 @@
         private System.Windows.Forms.Label lblResultado;
         private System.Windows.Forms.Label lblOperar;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblConta;
+        private System.Windows.Forms.Label lblConta2;
     }
 }
 
